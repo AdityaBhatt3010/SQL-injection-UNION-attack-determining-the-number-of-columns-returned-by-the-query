@@ -50,7 +50,9 @@ We need a baseline request so we can inject into the `category` parameter.
 
 Injected the following into the category parameter:
 
+```
 +UNION+SELECT+NULL--
+```
 
 This immediately caused an error.
 
@@ -65,7 +67,9 @@ If the number of columns doesn’t match, the backend throws an SQL error → me
 
 Next attempt:
 
+```
 +UNION+SELECT+NULL,NULL--
+```
 
 Still an error.
 
@@ -80,7 +84,9 @@ Still mismatched → the original query uses **more than 2 columns**.
 
 Final attempt:
 
+```
 +UNION+SELECT+NULL,NULL,NULL--
+```
 
 This time the page loaded normally and included our injected row.
 
