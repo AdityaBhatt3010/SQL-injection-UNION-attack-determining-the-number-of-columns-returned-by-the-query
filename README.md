@@ -4,6 +4,8 @@
 
 Before any UNION-based SQL injection can work, you *must* figure out the number of columns the original query returns. This PortSwigger lab gives us a classic opportunity to do exactly that using a simple, clean NULL-based enumeration technique.
 
+[Lab Link](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns) <br/>
+
 ![Cover](SQLi_PoC/Cover.jpeg)
 
 ---
