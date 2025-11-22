@@ -106,6 +106,8 @@ This solves the lab.
 
 We successfully identified the correct number of columns (3) required for UNION-based SQL injection. This technique will now be used in upcoming labs to extract data, determine data types, and build full exploitation payloads.
 
+![Step 5](SQLi_PoC/5.png)
+
 ---
 
 # 🧠 Key Takeaways
